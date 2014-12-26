@@ -1,0 +1,53 @@
+@import url(http://fonts.googleapis.com/css?family=Amatic+SC|Coming+Soon);
+
+#main{
+	text-align:center;
+}
+
+#content{
+	background-color:#F5F1E9;
+	text-align:center;
+	width:810px;
+	height:600px;
+}
+
+#title {
+	font-family: 'Coming Soon', sans-serif;
+	margin-top:70px;
+	color:#262626;
+	font-size:36px;
+}
+
+#message {
+	font-family: 'Coming Soon', sans-serif;
+	color:#262626;
+	font-size:24px;
+}
+
+#link{
+	font-family: 'Amatic SC', sans-serif;
+	color:#262626;
+	margin-top:40px;
+	width:200px;
+	font-size:36px;
+}
+
+#canvas{
+	border:#999 solid 3px;
+	background:#DEDBCC;
+
+}
+
+#pen{
+	cursor: move;
+}
+
+a {
+	color:#262626;
+	text-decoration:none;
+	padding:10px;
+}
+
+a:hover{
+	opacity:0.7;
+}

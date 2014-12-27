@@ -5,41 +5,54 @@
 }
 
 #content{
-	background-color:#F5F1E9;
-	text-align:center;
-	width:810px;
+	padding-right:50px;
+	padding-left:50px;
+	width:700px;
 	height:600px;
 }
 
 #title {
 	font-family: 'Coming Soon', sans-serif;
-	margin-top:70px;
-	color:#262626;
+	margin-top:40px;
+	color:#245259;
 	font-size:36px;
 }
 
 #message {
 	font-family: 'Coming Soon', sans-serif;
-	color:#262626;
+	color:#245259;
 	font-size:24px;
 }
 
 #link{
 	font-family: 'Amatic SC', sans-serif;
-	color:#262626;
+	color:#245259;
 	margin-top:40px;
 	width:200px;
 	font-size:36px;
 }
 
-#canvas{
+#note{
 	border:#999 solid 3px;
 	background:#DEDBCC;
-
 }
 
 #pen{
 	cursor: move;
+}
+
+#pen-case{
+	text-align:right;
+	border:1px solid red;	
+	width:400;
+	text-align:center;
+	margin-top:50px;
+}
+
+#toolbar{
+	text-align:right;
+	border:1px solid red;	
+	width:600px;
 }
 
 a {

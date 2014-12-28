@@ -21,7 +21,7 @@ $(function() {
   image.src = "image/pen.png";
 
   $(penCanvas).draggable({ containment: '#screen',
-                          scroll: false });
+                           scroll: false });
      
   var start = new Position(0,0);
   var end = new Position(0,0);
@@ -43,7 +43,7 @@ $(function() {
     end.y = e.pageY - noteOffset.y;
     noteContext.beginPath();
     noteContext.moveTo(start.x, start.y);
-    noteContext.lineTo(end.x,end.y);
+    noteContext.lineTo(end.x, end.y);
     noteContext.stroke();
     start.x = end.x;
     start.y = end.y;

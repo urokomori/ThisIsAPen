@@ -43,7 +43,6 @@
 
 #pen-case{
 	text-align:right;
-	border:1px solid red;	
 	width:400;
 	text-align:center;
 	margin-top:50px;
@@ -51,7 +50,6 @@
 
 #toolbar{
 	text-align:right;
-	border:1px solid red;	
 	width:600px;
 }
 

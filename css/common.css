@@ -35,6 +35,7 @@
 #note{
 	border:#999 solid 3px;
 	background:#DEDBCC;
+	margin-top:30px;
 }
 
 #pen{
@@ -61,4 +62,16 @@ a {
 
 a:hover{
 	opacity:0.7;
+}
+
+#clear-button{
+ background: #EEE;
+ border-top: 2px solid #DDD;
+ border-left: 2px solid #DDD;
+ border-right: 2px solid #BBB;
+ border-bottom: 2px solid #BBB;
+ color:#111;
+ width:100px;
+ padding: 10px 0;
+ font-size:14px;
 }

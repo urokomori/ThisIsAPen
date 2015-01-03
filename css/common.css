@@ -1,7 +1,12 @@
 @import url(http://fonts.googleapis.com/css?family=Amatic+SC|Coming+Soon);
 
+body{
+	background-image:url(../image/background.png);  
+}
+
 #main{
 	text-align:center;
+	
 }
 
 #content{
@@ -34,8 +39,8 @@
 
 #note{
 	border:#999 solid 3px;
-	background:#DEDBCC;
 	margin-top:30px;
+	background-image:url(../image/note.png);  
 }
 
 #pen{
@@ -75,3 +80,4 @@ a:hover{
  padding: 10px 0;
  font-size:14px;
 }
+
